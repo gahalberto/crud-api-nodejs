@@ -1,7 +1,6 @@
 import { Router } from 'express';
 
+// Create a new router instance
 export const mainRouter = Router();
 
-mainRouter.get('/ping', (req, res) => {
-    res.json({ pong: true });
-});
+// Export the router to be used in other parts of the application
